@@ -12,11 +12,7 @@ class MathServiceProvider extends ServiceProvider
             $this->publishes([
                 __DIR__.'/../config/math.php' => config_path('math.php'),
             ], 'config');
-
-
         }
-
-
     }
 
     public function register()
